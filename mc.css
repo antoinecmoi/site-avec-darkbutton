@@ -9,6 +9,13 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+body.dark {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
+}
+
 .bloc-1 {
     height: 100px;
     width: 100%;
@@ -220,7 +227,9 @@ body {
   background-color: black;
 }
 
-.bouton_darkmode {
+/* Mise en forme du bouton */
+
+.bouton_darkmode {  
   background-color: #111111cc;
   padding: 10px 10px;
   border-radius: 8px;
@@ -229,9 +238,3 @@ body {
   cursor: pointer;
 }
 
-body.dark {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: rgb(0, 0, 0);
-}
